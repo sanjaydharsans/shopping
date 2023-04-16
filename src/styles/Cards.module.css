@@ -1,0 +1,155 @@
+.cardContainer{
+    width: 20%;
+    min-width: 100px;
+    /* max-height: 90%;   */
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    max-height: 40rem;
+    min-height: 40rem;
+   
+}
+.productContainer{
+    display:flex;
+    justify-content: space-around; 
+    gap:20px;
+    flex-wrap: wrap;
+    width: 98.80%;
+    /* height: 85.95vh; */
+    padding: 10px;
+    background-color: bisque;
+    
+   
+}
+.imageContainer{
+    width: 100%;
+    position: relative;
+    height: 70%;
+    /* flex: 1; */
+    border-radius: 10px 10px 0px 0px;
+}
+.imageContainer > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.addToCardBtn {
+    background-color: steelblue;
+    color: aliceblue;
+    border: 2px solid #000;
+    padding: 8px;
+    border-radius: 24px;
+    margin-left: 40%;
+    cursor: pointer;
+    
+}
+
+.addToCardBtn1 {
+    background-color: steelblue;
+    color: aliceblue;
+    border: 2px solid #000;
+    padding: 8px;
+    border-radius: 24px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 80%;
+    cursor: pointer;
+    
+
+} 
+.addToCardBtn2 {
+    background-color: steelblue;
+    color: aliceblue;
+    border: 2px solid #000;
+    cursor: pointer;
+
+
+}
+.Checkouts{
+    background-color: steelblue;
+    color: aliceblue;
+    border: 2px solid #000;
+    padding: 6px;
+    border-radius: 24px;
+    margin-left: 91%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    cursor: pointer;
+   
+}
+
+/* cart page */
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    min-height: 29vh;
+}
+.cartCardContainer{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ccc;
+    width: 80%;
+    height: 240px;
+    justify-content: space-around;
+    margin-top: 5px;
+    
+    
+}
+.cartImageContainer{
+    width: 120px;
+    position: relative;
+    height: 70%;
+}
+.cartImageContainer > img{
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    text-transform: uppercase;
+    
+    background-color: #000000;
+    
+    
+    
+}
+.footerheading{
+    text-transform: uppercase;
+    color: #fdd835;
+}
+.footerlist{
+    text-transform: uppercase;
+    color: #4CAF50;
+    font: 12px montserrat,sans-serif;
+    margin: 0px 0px 10px
+}
+.footer1{
+   
+        display: flex;
+        text-transform: uppercase;
+        padding: 2rem 8rem;
+        flex-direction: column;
+        
+      
+}
+.footer2{
+    display:flex;
+    
+    text-transform: uppercase;
+    background-color: #000000;
+    position: relative;
+    
+    bottom: 0;
+   
+    width: 100%;
+    
+  
+
+
+}
+
